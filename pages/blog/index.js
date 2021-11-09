@@ -2,12 +2,11 @@ import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-import Layout from "./components/Layout";
-import GithubRepos from "./components/GithubRepos";
-import Post from "./components/Post";
-import { sortDates } from "../utils";
+import Layout from "../components/Layout";
+import Post from "../components/Post";
+import { sortDates } from "../../utils";
 
-export default function Home({ posts }) {
+export default function BlogPage({ posts }) {
   return (
     <Layout>
       <h2 className="mb-6 text-lg">📑 Ramblings</h2>
@@ -16,8 +15,6 @@ export default function Home({ posts }) {
           return <Post post={post} key={post.slug} />;
         })}
       </div>
-      <h2 className="my-6 text-lg">📌 Repos</h2>
-      <GithubRepos />
     </Layout>
   );
 }
@@ -36,7 +33,7 @@ export async function getStaticProps() {
   });
   return {
     props: {
-      posts: posts.slice(0, 6).sort(sortDates).slice(0, 6),
+      posts: posts.sort(sortDates).slice(0, 6),
     },
   };
 }
