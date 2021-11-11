@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { format } from "date-fns";
 
 import CategoryLabel from "./CategoryLabel";
 import { humanizeDate } from "../../utils";

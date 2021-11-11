@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import Spinner from "./spinner";
+import Spinner from "./Spinner";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
