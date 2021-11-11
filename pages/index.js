@@ -2,9 +2,9 @@ import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-import Layout from "./components/Layout";
-import GithubRepos from "./components/GithubRepos";
-import Post from "./components/Post";
+import Layout from "../components/Layout";
+import GithubRepos from "../components/GithubRepos";
+import Post from "../components/Post";
 import { sortDates } from "../utils";
 
 export default function Home({ posts }) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Metadata from "./components/Metadata";
+import Metadata from "../components/Metadata";
 
 export default function NotFoundPage() {
   const router = useRouter();

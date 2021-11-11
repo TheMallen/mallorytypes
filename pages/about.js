@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import Layout from "./components/Layout";
-import Github from "./components/icons/github.svg";
-import Twitter from "./components/icons/twitter.svg";
-import LinkedIn from "./components/icons/linkedin.svg";
-import GithubRepos from "./components/GithubRepos";
+import Layout from "../components/Layout";
+import Github from "../components/icons/github.svg";
+import Twitter from "../components/icons/twitter.svg";
+import LinkedIn from "../components/icons/linkedin.svg";
+import GithubRepos from "../components/GithubRepos";
 
 export default function AboutPage() {
   return (

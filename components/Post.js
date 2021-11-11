@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import CategoryLabel from "./CategoryLabel";
-import { humanizeDate } from "../../utils";
+import { humanizeDate } from "../utils";
 
 export default function Post({ post }) {
   return (
