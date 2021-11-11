@@ -45,19 +45,19 @@ export default function AboutPage() {
           <div className="prose">
             <h2 className="text-xl text-gray-100 no-prose lg:text-2xl">Hi!</h2>
             <p>
-              I'm a professional software developer and even more professional
-              cat mom. I started programming at a tender young age making weird
-              broken flash games and writing hacks for Jedi Knight.
+              I&apos;m a professional software developer and even more
+              professional cat mom. I started programming at a tender young age
+              making weird broken flash games and writing hacks for Jedi Knight.
             </p>
             <p>
               Eventually I found my way into the tech industry proper focusing
-              on web applications. I've now worked at Shopify for over 6 years
-              focusing on front-end development, developer tooling, and React
-              foundations.
+              on web applications. I&apos;ve now worked at Shopify for over 6
+              years focusing on front-end development, developer tooling, and
+              React foundations.
             </p>
 
             <p>
-              Lately I've been getting into developing VRChat Udon worlds,
+              Lately I&apos;ve been getting into developing VRChat Udon worlds,
               exploring next-gen web tooling, and giving developers the best
               experience they can get.
             </p>
@@ -68,18 +68,21 @@ export default function AboutPage() {
               width="16"
               height="16"
               src="/images/sprites/Me.png"
+              alt="A pixel-art sprite of me"
             ></Image>
             <Image
               className="mr-2"
               width="16"
               height="16"
               src="/images/sprites/Kokusho.png"
+              alt="A pixel-art sprite of my black cat Kokusho"
             ></Image>
             <Image
               className="mr-2"
               width="16"
               height="16"
               src="/images/sprites/Skye.png"
+              alt="A pixel-art sprite of my calico cat Skye Kitten"
             ></Image>
           </div>
         </article>
