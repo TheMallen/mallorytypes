@@ -13,7 +13,7 @@ export default function PostPage({
 }) {
   return (
     <Layout title={title}>
-      <article className="w-full px-10 py-4 mt-6 bg-white rounded-lg shadow-md px-">
+      <article className="max-w-3xl px-4 py-2 mx-auto mt-6 bg-gray-200 rounded-lg shadow-md md:py-4 md:px-10 bg-w-full">
         <header className="flex items-center justify-between mt-4 mb-4">
           <h1 className="text-2xl md:text-3xl">{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
@@ -28,13 +28,17 @@ export default function PostPage({
           <div className="mr-4">{date}</div>
         </div>
 
-        <div className="mx-auto prose prose-lg text-gray-700 lg:prose-xl">
+        <div className="mx-auto mt-0 prose prose-lg">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </article>
 
-      <footer className="mt-4 hover:text-indigo-600">
-        <Link href="/blog">Back</Link>
+      <footer className="max-w-3xl mx-auto mt-6 text-gray-100 hover:text-indigo-600">
+        <Link href="/blog">
+          <a className="px-5 py-2 text-lg text-white bg-purple-600 rounded hover:bg-purple-800">
+            Back
+          </a>
+        </Link>
       </footer>
     </Layout>
   );

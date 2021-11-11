@@ -19,8 +19,8 @@ export default function GithubRepos() {
                 href={repo.url}
                 className="hover:text-indigo-600 fade-in"
               >
-                <div className="p-4 bg-white border-2">
-                  <header className="flex content-center justify-between w-full mb-2">
+                <div className="p-4 bg-gray-200 border-2 rounded-lg shadow">
+                  <header className="flex content-center justify-between w-full mb-2 h-fill">
                     <h3 className="text-xl">{repo.name}</h3>
                     <span
                       className="self-center justify-self-end"

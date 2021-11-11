@@ -9,7 +9,7 @@ import { sortDates } from "../../utils";
 export default function BlogPage({ posts }) {
   return (
     <Layout>
-      <h2 className="mb-6 text-lg">📑 Ramblings</h2>
+      <h2 className="mt-2 mb-6 text-lg text-gray-100">📑 Ramblings</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
         {posts.map((post) => {
           return <Post post={post} key={post.slug} />;
@@ -33,7 +33,7 @@ export async function getStaticProps() {
   });
   return {
     props: {
-      posts: posts.sort(sortDates).slice(0, 6),
+      posts: posts.sort(sortDates),
     },
   };
 }

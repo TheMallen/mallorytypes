@@ -7,7 +7,7 @@ import { humanizeDate } from "../../utils";
 
 export default function Post({ post }) {
   return (
-    <div className="flex flex-col w-full px-4 py-6 bg-white border-l-2 rounded-lg shadow-md">
+    <div className="flex flex-col w-full px-4 py-6 bg-gray-200 border-l-2 rounded-lg shadow-md">
       {post.frontmatter.cover && (
         <Image
           src={post.frontmatter.cover}
@@ -29,7 +29,9 @@ export default function Post({ post }) {
       <p className="flex-grow text-gray-600">{post.frontmatter.exerpt}</p>
       <div className="flex items-center justify-between mt-6 justify-self-end align-self-end">
         <Link href={`/blog/${post.slug}`}>
-          <a className="text-gray-900 hover:text-indigo-600">Read more</a>
+          <a className="px-5 py-2 text-white bg-purple-600 rounded text-md md:text-lg hover:bg-purple-800">
+            Read more
+          </a>
         </Link>
       </div>
     </div>

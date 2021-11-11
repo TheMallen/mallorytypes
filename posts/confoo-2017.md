@@ -9,7 +9,7 @@ exerpt: "I went to ConFoo in 2017. It was overall pretty neat."
 
 ## Confoo 2017 Highlights
 
-![Confoo badge](/confoo-badge.png)
+![Confoo badge](/images/legacy/confoo-badge.png)
 
 I finally made it to a conference outside Ottawa this year. Despite my boyfriend and I coming down with a pretty bad flu, it was a great experience with a diverse array of speakers. There was a lot of really cool content that appealed to me oddly specifically at times.
 
@@ -51,16 +51,16 @@ It was pretty inspiring and I'll be trying to do some kind of cargo-cult imitati
 
 BC and Vancouver are incredibly beautiful!
 
-![The vancouver wall center](/tower.png)
-![Really pretty lights](/lights.png)
-![Truck](/truck.png)
+![The vancouver wall center](/images/legacy/tower.png)
+![Really pretty lights](/images/legacy/lights.png)
+![Truck](/images/legacy/truck.png)
 
 ## The Food
 
 The food at the conference was absolutely tip top. Pics speak for themselves. I wish I'd remembered to take pictures of more dishes, but I just ate them too fast.
 
-![omg so good](/tasty-food1.png)
-![delicious food](/tasty-food-2.png)
+![omg so good](/images/legacy/tasty-food-1.png)
+![delicious food](/images/legacy/tasty-food-2.png)
 
 ## Till next time
 

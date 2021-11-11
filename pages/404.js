@@ -17,9 +17,9 @@ export default function NotFoundPage() {
           />
         </span>
 
-        <h1 className="my-5 text-6xl">Whoops!</h1>
+        <h1 className="my-5 text-6xl text-gray-100 ">Whoops!</h1>
 
-        <h2 className="mb-5 text-4xl text-gray-400">
+        <h2 className="mb-5 text-4xl text-gray-200">
           This page does not exist
         </h2>
 

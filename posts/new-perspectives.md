@@ -23,7 +23,7 @@ That is a good question. Maybe I just really want more excuses to type. Maybe I 
 
 ## How I made the blog
 
-This blog was built using [Nextjs](https://nextjs.org/) with styling via [tailwind](https://tailwindcss.com/) and posts written in [mdx](https://www.npmjs.com/package/@mdx-js/react).
+This blog was built using [Nextjs](https://nextjs.org/) with styling via [tailwind](https://tailwindcss.com/) and posts written in markdown.
 
 I chose these because they make it extremely easy to quickly iterate on apps and handle most of the annoying parts of development for me. I may go further into detail about how to use these things in a subsequent post, or I may forget I said that and not.
 

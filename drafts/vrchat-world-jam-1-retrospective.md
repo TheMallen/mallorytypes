@@ -7,4 +7,4 @@ cover: "/images/Pixel_Aquarium.png"
 exerpt: "I took part in the first ever VRChat world jam this summer."
 ---
 
-Stuff
+In the midst of the pandemic I became enamored with VRChat. I met my partner there.
