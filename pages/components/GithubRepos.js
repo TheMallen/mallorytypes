@@ -8,9 +8,14 @@ export default function GithubRepos() {
   return (
     <>
       {!data && !error && <Spinner />}
-      <div className="grid gap-4 md:grid-cols-2 md:grid-rows-2">
-        {error && "failed to load"}
+      {error && (
+        <span className="p-2 text-white bg-red-400 rounded shadow">
+          Pinned github repos failed to load, check your network status and
+          refresh the page.
+        </span>
+      )}
 
+      <div className="grid gap-4 md:grid-cols-2 md:grid-rows-2">
         {data &&
           data.user.pinnedItems.edges.map(({ node: repo }) => {
             return (
