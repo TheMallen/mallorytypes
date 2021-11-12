@@ -1,8 +1,14 @@
 # Mallorytypes
 
+![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=mallorytypes-dmyb2ahkk-themallen.vercel.app)
+
 A next.js/tailwindcss/markdown blog for Mallory Allen. This app serves as a playground for little react things and also as a successor to my old gatsby-based blog. I did my best to be minimalistic and pragmatic, and to use whatever seemed like the easiest tool for every job.
 
 Broadly speaking, feel free to fork this as a basis for your own blog or website. Check out the [license](./LICENSE.md) for details on what you may and may not use.
+
+## Production instance
+
+[visit](https://www.mallorytypes.com/)
 
 ## Running the Server
 
@@ -22,4 +28,5 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Deploying
 
-TBD
+This app is deployed via [vercel](https://vercel.com/). If you're cloning it you should be able to just point a new vercel project at the repo and it will "just work" ✨ :).
+
