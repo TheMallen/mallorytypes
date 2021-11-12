@@ -18,6 +18,8 @@ export default function GithubRepos() {
       <div className="grid gap-4 md:grid-cols-2 md:grid-rows-2">
         {data &&
           data.user.pinnedItems.edges.map(({ node: repo }) => {
+            const useDarkText =
+              repo.primaryLanguage.name.toLowerCase() === "javascript";
             return (
               <a
                 key={repo.id}
@@ -28,8 +30,10 @@ export default function GithubRepos() {
                   <header className="flex content-center justify-between w-full mb-2 h-fill">
                     <h3 className="text-xl">{repo.name}</h3>
                     <span
-                      className="self-center justify-self-end"
-                      style={{ color: repo.primaryLanguage.color }}
+                      className={`self-center px-2 py-2 my-1 text-xs font-light ${
+                        useDarkText ? "text-gray-900" : "text-gray-100"
+                      } rounded family-unicode lg:text-sm justify-self-end`}
+                      style={{ background: repo.primaryLanguage.color }}
                     >
                       {repo.primaryLanguage.name}
                     </span>
