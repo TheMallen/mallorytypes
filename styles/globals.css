@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html.mac {
+html {
   background: #591bc5;
-}
-
-html.not-mac {
-  background: linear-gradient(132deg, #fc415a, #591bc5, #212335);
-  background-size: 400% 400%;
-  animation: Gradient 30s ease infinite;
-  position: relative;
 }
 
 .fade-in {
@@ -59,18 +52,5 @@ html.not-mac {
   }
   100% {
     opacity: 1;
-  }
-}
-
-/* Animate Background*/
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }

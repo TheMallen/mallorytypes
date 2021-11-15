@@ -9,14 +9,3 @@ export function sortDates(postA, postB) {
 export function humanizeDate(date) {
   return format(new Date(date), "do  MMMM yyyy");
 }
-
-export function isApple(userAgent) {
-  if (userAgent) {
-    return (
-      userAgent.toLowerCase().includes("mac") ||
-      userAgent.toLowerCase().includes("ios")
-    );
-  } else {
-    return false;
-  }
-}
