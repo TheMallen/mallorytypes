@@ -11,8 +11,12 @@ export function humanizeDate(date) {
 }
 
 export function isApple(userAgent) {
-  return (
-    userAgent.toLowerCase().includes("mac") ||
-    userAgent.toLowerCase().includes("ios")
-  );
+  if (userAgent) {
+    return (
+      userAgent.toLowerCase().includes("mac") ||
+      userAgent.toLowerCase().includes("ios")
+    );
+  } else {
+    return false;
+  }
 }
