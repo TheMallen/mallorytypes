@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html.mac {
+  background: #591bc5;
+}
+
+html.not-mac {
   background: linear-gradient(132deg, #fc415a, #591bc5, #212335);
   background-size: 400% 400%;
   animation: Gradient 30s ease infinite;

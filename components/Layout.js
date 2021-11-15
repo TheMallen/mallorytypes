@@ -34,7 +34,7 @@ export default function Layout({ title, keywords, description, children }) {
           </nav>
         </div>
       </header>
-      <main className="container w-4/5 px-2 py-2 mx-auto lg:py-6 debug-screens">
+      <main className="container w-4/5 px-2 py-2 mx-auto lg:py-6">
         {children}
       </main>
     </>
