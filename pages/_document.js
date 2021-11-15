@@ -6,7 +6,7 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     const userAgent =
       typeof window === "undefined"
-        ? ctx.req.headers["user-agent"]
+        ? ctx?.req?.headers["user-agent"]
         : window.navigator.userAgent;
     return { userAgent, ...initialProps };
   }
